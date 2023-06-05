@@ -19,7 +19,7 @@ const Home = () => (
           <p class="text-center text-4xl font-bold text-white drop-shadow-lg">Bernard Allotey</p>
         </div>
         <div class="hidden max-w-[200px] flex-1 items-center md:flex">
-          <img src="/images/b5xubbles.png" class="w-full" />
+          <img src="/images/bubbles.png" class="w-full" />
         </div>
       </div>
       <div class="flex w-full flex-1 flex-col items-center justify-center p-8">
