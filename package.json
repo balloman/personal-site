@@ -10,10 +10,12 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.8",
     "autoprefixer": "^10.4.14",
+    "daisyui": "^3.0.3",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -28,10 +30,8 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.2",
-    "@hope-ui/solid": "^0.6.7",
     "@solidjs/router": "^0.8.2",
     "@stitches/core": "^1.2.8",
-    "flowbite": "^1.6.5",
     "solid-icons": "^1.0.4",
     "solid-js": "^1.7.5",
     "solid-transition-group": "^0.2.2"

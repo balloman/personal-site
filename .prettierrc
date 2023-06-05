@@ -6,12 +6,10 @@
   "printWidth": 120,
   "bracketSpacing": true,
   "importOrder": [
-    "^@core/(.*)$",
-    "^@server/(.*)$",
-    "^@ui/(.*)$",
+    "<THIRD_PARTY_MODULES>",
     "^[./]"
   ],
-  "importOrderSeparation": true,
+  "importOrderSeparation": false,
   "importOrderSortSpecifiers": true,
   "plugins": [
     "@trivago/prettier-plugin-sort-imports",
