@@ -32,6 +32,7 @@
     "@fontsource-variable/inter": "^5.0.2",
     "@solidjs/router": "^0.8.2",
     "@stitches/core": "^1.2.8",
+    "@vercel/analytics": "^1.0.1",
     "solid-icons": "^1.0.4",
     "solid-js": "^1.7.5",
     "solid-transition-group": "^0.2.2"

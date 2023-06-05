@@ -1,11 +1,12 @@
 /* @refresh reload */
 import "@fontsource-variable/inter";
 import { Router } from "@solidjs/router";
+import { inject } from "@vercel/analytics";
 import { render } from "solid-js/web";
-
 import App from "./App";
 import "./index.css";
 
+inject();
 const root = document.getElementById("root");
 
 if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
