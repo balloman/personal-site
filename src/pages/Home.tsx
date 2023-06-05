@@ -3,6 +3,7 @@ import { FaBrandsInstagram } from "solid-icons/fa";
 import { VsGithubInverted } from "solid-icons/vs";
 import { JSX } from "solid-js";
 
+
 const MenuIcon = (props: { icon: JSX.Element; link: string }) => (
   <li class="p-0">
     <a onClick={() => window.open(props.link)}>{props.icon}</a>
@@ -18,11 +19,11 @@ const Home = () => (
           <p class="text-center text-4xl font-bold text-white drop-shadow-lg">Bernard Allotey</p>
         </div>
         <div class="hidden max-w-[200px] flex-1 items-center md:flex">
-          <img src="/images/bubbles.png" class="w-full" />
+          <img src="/images/b5xubbles.png" class="w-full" />
         </div>
       </div>
       <div class="flex w-full flex-1 flex-col items-center justify-center p-8">
-        <img src="/images/profile.png" class="w-full max-w-lg" />
+        <img src="/images/profile.webp" class="w-full max-w-lg" />
       </div>
       <div class="absolute right-1/2 top-10"></div>
     </div>
