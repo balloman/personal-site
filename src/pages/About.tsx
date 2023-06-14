@@ -5,11 +5,11 @@ const About = () => (
         <h1 class="mb-4 text-4xl font-semibold">About Me</h1>
         <div class="divider" />
         <p>
-          I liked video games so much as a kid, that when I reached middle school, I decided I wanted to learn to make
-          them. This was back in 2016, and since then I dabbled a bit in C++ and Python, with some android development
-          on the side, before joining the robotics team at my school and ascending to programming leader. There, I
-          grasped team leadership skills and introduced vision processing and autonomous pathfinding to the robotics
-          team.
+          I liked video games so much as a kid that when I reached middle school, I decided I wanted to learn to make
+          them. This was back in 2016, and since then I experimented a bit in C++ and Python, with some Android
+          development on the side, before joining the robotics team at my school and ascending to programming leader.
+          There, I grasped team leadership skills and introduced vision processing and autonomous pathfinding to the
+          robotics team.
         </p>
         <br />
         <p>
