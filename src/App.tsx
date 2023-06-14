@@ -8,7 +8,9 @@ const About = lazy(() => import("./pages/About"));
 
 const SidebarLink = (props: { children: string; href: string }) => (
   <li>
-    <a href={props.href}>{props.children}</a>
+    <A inactiveClass="font-normal" activeClass="font-bold text-secondary" end={props.href === "/"} href={props.href}>
+      {props.children}
+    </A>
   </li>
 );
 
