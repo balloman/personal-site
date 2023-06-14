@@ -2,6 +2,7 @@ import { A, Route, Routes } from "@solidjs/router";
 import { FiMenu } from "solid-icons/fi";
 import { Component, lazy } from "solid-js";
 
+
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 
@@ -23,6 +24,7 @@ const App: Component = () => (
       <div class="flex-1">
         <Routes>
           <Route path="/" component={Home} />
+          <Route path="/about" component={About} />
           <Route path="*" element={"404"} />
         </Routes>
       </div>
