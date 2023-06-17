@@ -1,0 +1,65 @@
+{
+  "jobs": [
+    {
+      "company": "Siemens PLM",
+      "title": "Dev-Ops Engineer",
+      "location": "Huntsville, AL",
+      "start": "August 2022",
+      "end": "May 2023",
+      "description": "Implemented new logging system full stack, improving logging throughput and developer experience for internal build system.",
+      "bullets": [
+        "Enhanced Java logging backend by replacing MongoDB based logging system with non-blocking I/O native solution, accomodating for real-time updates and drastically improved performance",
+        "Modified build system to implement logging system in Go",
+        "Created web interface for logging system using React and Redux, allowing for real-time updates and improved developer experience"
+      ]
+    },
+    {
+      "company": "Amazon.com Lab 126",
+      "title": "SDE Intern",
+      "location": "Sunnyvale, CA",
+      "start": "May 2022",
+      "end": "August 2022",
+      "description": "Drastically improved Astro Floor Plan Service Feedback in Java on AWS",
+      "bullets": [
+        "Redesigned negative feedback workflow from the ground up",
+        "Improved negative feedback result loop from 24 hours to 1 hour"
+      ]
+    },
+    {
+      "company": "Abaco Systems",
+      "location": "Huntsville, AL",
+      "title": "Software Test Engineer Co-Op",
+      "start": "September 2021",
+      "end": "May 2022",
+      "description": "Coordinated with development team to improve testing and quality assurance",
+      "bullets": [
+        "Created automated testing framework in LabVIEW for testing Single Board Computers prior to production",
+        "Created software solution to enable effect tracking of hardware health over time in various conditions, using MongoDB and C#"
+      ]
+    },
+    {
+      "company": "Amazon.com Lab 126",
+      "location": "Sunnyvale, CA",
+      "title": "SDE Intern",
+      "start": "May 2021",
+      "end": "August 2021",
+      "description": "Created negative feedback data layer workflow for Astro Floor Plan Service in Java on AWS",
+      "bullets": [
+        "Created data layer for negative feedback workflow, allowing for customers to provide feedback on Astro's positioning during hangout",
+        "Implemented data layer in Java using AWS DynamoDB"
+      ]
+    },
+    {
+      "company": "University of Alabama in Huntsville",
+      "location": "Huntsville, AL",
+      "title": "Student Software Developer",
+      "start": "February 2020",
+      "end": "March 2022",
+      "description": "Created multiple software solutions for the Dean's office of the College of Arts, Humanities, and Social Sciences",
+      "bullets": [
+        "Created tool for processing department travel requests, funneling into Docusign documents for approval, while also providing a dashboard for tracking requests; Used for over 500 requests per semester",
+        "Created google suite solution for hiring and approving adjunct faculty for department using TypeScript"
+      ]
+    }
+  ]
+}

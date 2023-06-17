@@ -22,7 +22,7 @@ const Home = () => (
           <img src="/images/bubbles.png" class="w-full" />
         </div>
       </div>
-      <div class="flex w-full flex-1 flex-col items-center justify-center p-8">
+      <div class="z-20 flex w-full flex-1 flex-col items-center justify-center p-8">
         <img src="/images/profile.webp" class="w-full max-w-lg" />
       </div>
       <div class="absolute right-1/2 top-10"></div>
