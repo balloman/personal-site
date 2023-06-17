@@ -1,5 +1,6 @@
 import { For, createResource, createSignal } from "solid-js";
 
+
 interface Job {
   company: string;
   title: string;
@@ -22,7 +23,7 @@ const JobComponent = ({ job }: { job: Job }) => (
       <p class="text-base font-bold md:col-span-5">
         {job.title} - {job.company}
       </p>
-      <div class="flex justify-end font-medium text-gray-400 md:col-span-2">
+      <div class="flex font-medium text-gray-400 md:col-span-2 md:justify-end">
         {job.start} - {job.end}
       </div>
       <p class="col-span-full font-medium text-gray-400">{job.location}</p>
