@@ -33,7 +33,7 @@ const App: Component = () => {
       />
       <div class="drawer md:drawer-open">
         <input id="d-toggle" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content flex flex-col">
+        <div class="drawer-content h-screen md:h-full flex flex-col">
           <div class="w-full px-2 py-2 md:hidden">
             <label for="d-toggle" class="drawer-button btn-outline btn md:hidden">
               <FiMenu class="h-4 w-4" />

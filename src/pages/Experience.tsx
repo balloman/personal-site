@@ -50,7 +50,7 @@ const Experience = () => {
           </ol>
         </div>
       </section>
-      <footer class="footer footer-center m-4 mt-8 w-full font-extralight text-base-content">
+      <footer class="footer footer-center p-4 mt-8 w-full font-extralight text-base-content">
         <div>
           <p>
             Download my resume pdf{" "}
