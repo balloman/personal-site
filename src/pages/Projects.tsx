@@ -1,4 +1,4 @@
-import { For, createResource } from "solid-js";
+import { For, Show, createResource } from "solid-js";
 
 interface Project {
   title: string;
@@ -13,9 +13,11 @@ const ProjectComponent = (props: { project: Project }) => (
     href={props.project.link}
     class="card-bordered card glass my-8 w-full max-w-lg bg-primary text-primary-content shadow-xl transition-all hover:-translate-y-1 hover:opacity-50 lg:mb-8 lg:mt-0 lg:overflow-scroll"
   >
-    <figure>
-      <img src={`/images/${props.project.image}`} alt="momentos" />
-    </figure>
+    <Show when={props.project.image}>
+      <figure>
+        <img src={`/images/${props.project.image}`} alt="momentos" />
+      </figure>
+    </Show>
     <div class="card-body">
       <h2 class="card-title">{props.project.title}</h2>
       <p class="card-description">{props.project.description}</p>

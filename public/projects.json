@@ -35,6 +35,30 @@
         "HopeUI",
         "Google MapsEmbed API"
       ]
+    },
+    {
+      "title": "FirstFootball",
+      "description": "A website that allows you to watch highlights of Premier League matches. Uses the LiveScore API",
+      "link": "https://github.com/balloman/FirstFootball",
+      "stack": [
+        ".NET Core",
+        "Google Cloud Run",
+        "Docker",
+        "React",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "ParkSight",
+      "description": "An Android and iOS mobile application that allows users to report on the state of parking lots around campus for U.A.H.",
+      "image": "parksight.webp",
+      "link": "https://apps.apple.com/us/app/parksight/id1638065050",
+      "stack": [
+        ".NET Core",
+        "Docker",
+        "Google Cloud Run",
+        "React Native"
+      ]
     }
   ]
 }
