@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "title": "Momentos",
+      "description": "A social media app that allows users to create 2.5 second clips that they can compile into Momentos that can be shared with friends!",
+      "image": "momentos.webp",
+      "stack": [
+        ".NET Core",
+        "React Native",
+        "Firestore",
+        "Google Cloud Run",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "link": "https://apps.apple.com/us/app/momentos-share-your-moments/id6444685672"
+    },
+    {
+      "title": "This Website",
+      "description": "A website to showcase my projects and skills.",
+      "image": "website.webp",
+      "stack": [
+        "SolidJS",
+        "Tailwind CSS",
+        "Vercel"
+      ],
+      "link": "https://bernardallotey.com"
+    },
+    {
+      "title": "TransitEasy",
+      "description": "A Chrome extension that allows users to see transit times for listings on the rental marketplace StreetEasy.",
+      "image": "transiteasy.webp",
+      "link": "https://chrome.google.com/webstore/detail/transiteasy/bfdlbppbnchhfkhgjindfmfllflhpima",
+      "stack": [
+        "SolidJS",
+        "HopeUI",
+        "Google MapsEmbed API"
+      ]
+    }
+  ]
+}
