@@ -11,7 +11,7 @@ interface Project {
 const ProjectComponent = (props: { project: Project }) => (
   <a
     href={props.project.link}
-    class="card-bordered card glass my-8 w-full max-w-lg bg-primary text-primary-content shadow-xl transition-all hover:-translate-y-1 hover:opacity-50 lg:mb-8 lg:mt-0 lg:overflow-scroll"
+    class="card-bordered card my-8 w-full max-w-lg bg-primary text-primary-content shadow-xl transition-all hover:-translate-y-1 hover:opacity-50 lg:mb-8 lg:mt-0 lg:overflow-auto"
   >
     <Show when={props.project.image}>
       <figure>
