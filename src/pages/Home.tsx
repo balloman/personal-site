@@ -27,7 +27,7 @@ const Home = () => (
       </div>
       <div class="absolute right-1/2 top-10"></div>
     </div>
-    <div class="absolute bottom-10 right-10">
+    <div class="absolute bottom-10 right-10 z-50">
       <ul class="menu menu-horizontal p-0">
         <MenuIcon link="https://github.com/balloman" icon={<VsGithubInverted class="h-5 w-5" />} />
         <MenuIcon link="https://www.linkedin.com/in/bernard-a-842555106/" icon={<BsLinkedin class="h-5 w-5" />} />
